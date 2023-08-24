@@ -1,0 +1,320 @@
+
+/*Sección Skills*/
+
+.tudo {
+    background-color: #bcbdbe;
+    padding-right: 6%;  /* sirve para poner margen al pagina web*/
+    padding-left: 6%;
+    padding-top: 6%;
+}
+.skills__title {
+    color: var( --cor-de-fuente);
+    padding-top: 10rem;
+     font-size: 4.0rem;
+     text-align: center;
+}
+
+.skills__line{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); /*codigo para colocar columnas*/
+    gap: 3rem;
+    width: 100%;
+    
+}
+
+.skills__img {
+    padding-top: 2rem;
+    font-size: 7rem;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+   
+    
+}
+.skills__name  {
+    font-size: 2rem;
+    display: grid;
+    text-align-last: center;  /*para colocar el texto debajo del icono o imagen*/
+    
+    color: var(--color);
+   
+}
+
+
+
+/*Sección Hobbies*/
+.hobbies__title{
+    color: var( --cor-de-fuente);
+    padding-top: 13rem;
+     font-size: 4.0rem;
+     text-align: center;
+}
+.hobbies__line{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); /*codigo para colocar columnas*/
+    gap: 2rem;
+    
+}
+
+.hobbies__img{
+    padding-top: 2rem;
+    font-size: 7rem;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    
+}
+.hobbies__name  {
+    font-size: 2rem;
+    display: grid;
+    text-align-last: center;  /*para colocar el texto debajo del icono o imagen*/
+    color: var(--color);
+   
+}
+.academic__courses {
+    display:inline-flex;
+}
+
+.academic__title {
+    color: var( --cor-de-fuente);
+    padding-top: 12rem;
+     font-size: 4.0rem;
+     padding-bottom: 4rem;
+     text-align: center;
+}
+
+.academic__img {
+    padding-top: 2rem;
+    grid-template-columns: repeat(3,1fr); /*codigo para colocar columnas*/
+    display: grid;
+    margin: 1%;
+    cursor: pointer;
+    padding-bottom: 2rem;
+}
+.academic__title1 {
+    padding-top: 1rem;
+    display: grid;
+    color: var( --cor-de-fuente); 
+    
+}
+.academic__subtitle {
+    color: var( --cor-de-fuente);
+    display: grid;
+   
+}
+
+.experience__info {
+    float: right;
+}
+
+.experience__title {
+    color: var( --cor-de-fuente);
+    padding-top: 11rem;
+     font-size: 4.0rem;
+     text-align: center;
+}
+.experience__img {
+    padding-top: 4rem;
+    width: 600px;
+   clear: both;;
+}
+.experience__title1 {
+    color: var(--cor-de-fuente);
+    padding-top: 12rem;
+   text-align: center;
+   font: 3rem sans-serif;
+   
+   
+    
+}
+.experience__text{
+    text-align: center;
+    color: var(--cor-de-fuente);
+   padding-top: 1rem;
+}
+.experience__description {
+    text-align: center;
+    display: flex;
+    gap: 10rem;
+   padding-top: 4rem;
+    
+}
+span{
+    width: 50px;
+	height: 50px;
+	line-height: 150px
+
+}
+.experience__botao--demo {
+    
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 9.375rem;
+    height: 100%;
+    background: var(--color-contraste);
+    border: 2px solid var(--color-contraste);
+    border-radius: 8px;
+    font-size: 1.1875rem;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+    z-index: 5;
+}
+.experiencia__botao--repo {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 9.375rem;
+    height: 100%;
+    background: var(--color-contraste);
+    border: 2px solid var(--color-contraste);
+    border-radius: 8px;
+    font-size: 1.1875rem;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+    
+}
+
+/*contacto*/
+
+
+.contacto__box {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 8rem;
+}
+.contacto__title {
+    color: var( --cor-de-fuente);
+    padding-top: 10rem;
+    bottom: 10rem;
+     font-size: 4.0rem;
+     text-align: center;
+     justify-content: center;
+    
+}
+.contacto__subtext {
+
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.contacto__form {
+    padding-top: 2rem;
+    width: 70%;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+  
+.contacto__input-wrapper {
+    --padding: 1.2rem;
+    position:relative;
+    padding-bottom: 1rem;
+    
+}
+ 
+.contacto__input, .contacto__textarea {
+    padding: 3.7rem 1.2rem 1.2rem;
+    height: 5.6rem;
+    width: 75%;
+    background-color: rgb(230, 241, 239);
+    border-radius: 1rem;
+    border: 30px;
+    border-bottom: 2px solid var(--color-border-input);
+    outline:none;
+    
+}
+  
+.contacto__input {
+    height: 5.6rem;
+    padding: 3.7rem 1.2rem 1.2rem;
+}
+  
+.contacto__textarea {
+    height: 13.2rem;
+    padding: 2.8rem 1.2rem;
+    outline: none;
+    resize: none;
+}
+  
+.contacto__label, .contacto__label-textarea {
+    position: absolute;
+    color: var(--color-label);
+    top: 1.8rem;
+    left: var(--padding);
+}
+  
+.contacto__input:is(:focus), .contacto__textarea:is(:focus) {
+    border-bottom: 5px solid var(--verde-claro);
+    
+    
+}
+  
+.contacto__input:is(:focus, :valid) + .contacto__label, .contacto__textarea:is(:focus, :valid) + .contacto__label-textarea {
+    
+    font-size: 1.2rem;
+    color: var(--verde-claro);
+    
+}
+.input-message-error {
+   font-size: 1.2rem;
+  visibility: hidden;
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+  }
+ 
+  .contacto__btn__submit {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background: var(--color-contraste);
+    border: 2px solid var(--color-contraste);
+    border-radius: 8px;
+    font-size: 2rem;
+    color: white;
+  }
+
+/* Footer */
+.footer__container {
+    width: 100%;
+    height: 0.1vh;  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .footer__copyright {
+    width: 100%;
+    padding: 0 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.9vw;
+    
+  }
+  
+  .footer__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .footer__icono {
+    font-size: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  
+  

@@ -1,0 +1,65 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title__profile {
+    width: 330px;
+    height: 330px;
+    border-radius: 100%;border: solid rgb(24, 24, 24) 3px; 
+    margin-top: 5rem;
+  
+}
+
+.title__bio{
+    margin-top: 4rem;
+    padding: 3rem;
+    font-family: var(--montserrat);
+    text-align: left;
+    font-size: 4.0rem;
+    font-weight: 700;
+    color: var( --cor-de-fuente);
+}
+.title__subsection {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: left;
+    font-family: var(--open-sans);
+}
+.menu {
+    background: black;
+    position:fixed;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%; 
+    padding: 1rem 8%;        
+    z-index: 1;
+}
+.menu__title {
+    font-family: var(--montserrat);
+    
+}
+
+.menu__list__item {
+    display: inline-block;
+}
+.title__network__item {
+    margin-top: 5rem;
+    display: inline-block;
+}
+
+/*Sección About*/
+
+.about__title{
+    color: var( --cor-de-fuente);
+   padding-top: 16rem;
+    font-size: 4.0rem;
+    text-align: center;
+}
+.home-bio {
+    margin-top: 4rem;
+    font-size: 1.3rem;
+    gap: 3rem;
+}
+

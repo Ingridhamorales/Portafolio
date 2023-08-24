@@ -1,0 +1,50 @@
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #070707;
+   --cor-de-link: #d83232;
+   --cor-de-footer: #9b93e9;
+   --cor-de-fuente: #1ca1c2;
+   --color: #1ca1c2;
+   --negro: black;
+   --verde-claro : rgb(29, 187, 14);
+   --color-sec-cortina: #203747;
+   --color-contraste: #00ABF0;
+   --background: #0B141E;
+   --color-border-input: #C8C8C8;
+   --color-label: #A2A2A2;
+
+   --montserrat: 'Montserrat', sans-serif;
+   --open-sans: 'Open Sans', sans-serif;
+
+}
+
+body {
+    
+    font-family: var(--open-sans);
+    background-color: #bcbdbe;
+
+}
+
+body a{
+    color:var(--color);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 1rem;
+}
+body a:hover{
+    color:var(--verde-claro);
+}
+.footer__copyright {
+  background: #d5d8da;
+}
+
+.footer__rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
